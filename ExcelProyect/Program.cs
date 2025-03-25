@@ -29,6 +29,7 @@ try
     excelFile.Finish(open: true);
 
 }catch(Exception ex)
+{ 
     Console.WriteLine(ex);
 }
 finally
